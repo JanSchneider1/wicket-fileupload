@@ -26,8 +26,10 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 
     // Wicket Dependencies
-    compile 'org.apache.wicket:wicket-core:7.17.0'
-    compile 'org.apache.wicket:wicket-extensions:7.17.0'
+    //compile 'org.apache.wicket:wicket-core:7.17.0'
+    //compile 'org.apache.wicket:wicket-extensions:7.17.0'
+    compile 'org.apache.wicket:wicket-core:8.0.0'
+    compile 'org.apache.wicket:wicket-extensions:8.0.0'
 }
 
 test {

@@ -17,7 +17,7 @@ public class HomePage extends WebPage {
         add(new Label("text", "Hello World"));
 
         // Create form
-        Form<Void> uploadForm = new Form<>("uploadForm") {
+        Form<Void> uploadForm = new Form<Void>("uploadForm") {
             @Override
             protected void onSubmit() {
                 super.onSubmit();
